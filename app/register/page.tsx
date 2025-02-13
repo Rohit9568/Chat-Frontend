@@ -65,8 +65,9 @@ const Register = () => {
 
     try {
       const response = await axios.post("/api/auth/local/register", {
-        email,
+        
         username,
+        email,
         password,
       });
       const { jwt, user } = response.data;
