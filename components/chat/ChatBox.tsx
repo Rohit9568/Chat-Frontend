@@ -29,7 +29,7 @@ const ChatBox = () => {
 
     // Ensure WebSocket is only created once
     if (!socketRef.current) {
-      const socketConnection = io(process.env.NEXT_PUBLIC_WEBSOCKET_URL || "ws://localhost:3001", {
+      const socketConnection = io(process.env.NEXT_PUBLIC_WEBSOCKET_URL || "ws://localhost:5001", {
         transports: ["websocket"],
         reconnectionAttempts: 3, // Try to reconnect 3 times
         reconnectionDelay: 1000, // Wait 1s before retrying

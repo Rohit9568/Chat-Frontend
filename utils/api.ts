@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL || "https://chat-backend-delta-bice.vercel.app/",
+  baseURL: process.env.NEXT_PUBLIC_API_URL || "https://delicate-hero-43b8750a1b.strapiapp.com",
   headers: {
     "Content-Type": "application/json",
   },
