@@ -19,7 +19,7 @@ Explore the live version of the project: [Ayna Assignment](https://chat-frontend
 ---
 ## 🚀 Deployment Details
 - **Backend:** Deployed on Strapi Cloud (14-day free trial)
-- **WebSocket API:** Self-hosted on a Virtual Machine (VM)
+- **WebSocket API:** Deployed on Render
 - **Frontend:** Hosted on Vercel for seamless delivery
 
 ---
